@@ -1,0 +1,127 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sun Jan 21 16:05:58 2024
+[*]
+[dumpfile] "/home/ubuntu/Desktop/Lab-final/testbench/counter_la_fir/counter_la_fir.vcd"
+[dumpfile_mtime] "Sun Jan 21 16:02:20 2024"
+[dumpfile_size] 68104192
+[savefile] "/home/ubuntu/Desktop/Lab-final/testbench/counter_la_fir/waveform.gtkw"
+[timestart] 1446247000
+[size] 2048 1081
+[pos] -1 -1
+*-17.718809 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] counter_la_fir_tb.
+[treeopen] counter_la_fir_tb.uut.
+[treeopen] counter_la_fir_tb.uut.housekeeping.
+[treeopen] counter_la_fir_tb.uut.mprj.
+[treeopen] counter_la_fir_tb.uut.mprj.mprj.
+[treeopen] counter_la_fir_tb.uut.mprj.mprj.dma_mem0.
+[treeopen] counter_la_fir_tb.uut.mprj.mprj.dma_mem0.dma_exmem.
+[treeopen] counter_la_fir_tb.uut.mprj.mprj.user_wb2axi.
+[treeopen] counter_la_fir_tb.uut.soc.
+[treeopen] counter_la_fir_tb.uut.soc.core.
+[sst_width] 313
+[signals_width] 220
+[sst_expanded] 1
+[sst_vpaned_height] 406
+@200
+-#wishbone bus
+@28
+counter_la_fir_tb.uut.mprj.wb_clk_i
+counter_la_fir_tb.uut.mprj.wb_rst_i
+@22
+counter_la_fir_tb.uut.mprj.wbs_adr_i[31:0]
+@28
+counter_la_fir_tb.uut.mprj.wbs_cyc_i
+counter_la_fir_tb.uut.mprj.wbs_stb_i
+@25
+counter_la_fir_tb.uut.mprj.wbs_dat_i[31:0]
+@420
+counter_la_fir_tb.uut.mprj.wbs_dat_o[31:0]
+@22
+counter_la_fir_tb.uut.mprj.wbs_sel_i[3:0]
+@28
+counter_la_fir_tb.uut.mprj.wbs_we_i
+counter_la_fir_tb.uut.mprj.wbs_ack_o
+@22
+counter_la_fir_tb.mprj_io[37:0]
+@200
+-
+-#data_bram
+@22
+counter_la_fir_tb.uut.mprj.mprj.dma_mem0.dma_exmem.data_bram.A0[31:0]
+@420
+counter_la_fir_tb.uut.mprj.mprj.dma_mem0.dma_exmem.data_bram.Di0[31:0]
+@24
+counter_la_fir_tb.uut.mprj.mprj.dma_mem0.dma_exmem.data_bram.Do0[31:0]
+@28
+counter_la_fir_tb.uut.mprj.mprj.dma_mem0.dma_exmem.data_bram.EN0
+@22
+counter_la_fir_tb.uut.mprj.mprj.dma_mem0.dma_exmem.data_bram.WE0[3:0]
+@200
+-
+-#dma_engine
+@28
+counter_la_fir_tb.uut.mprj.mprj.dma0.dma_control[3:0]
+@22
+counter_la_fir_tb.uut.mprj.mprj.dma0.dma_addr[31:0]
+counter_la_fir_tb.uut.mprj.mprj.dma0.dma_src[31:0]
+counter_la_fir_tb.uut.mprj.mprj.dma0.dma_dst[31:0]
+@24
+counter_la_fir_tb.uut.mprj.mprj.dma0.dma_len[7:0]
+@420
+counter_la_fir_tb.uut.mprj.mprj.dma0.dma_data_i[31:0]
+@24
+counter_la_fir_tb.uut.mprj.mprj.dma0.fir_in_count[7:0]
+counter_la_fir_tb.uut.mprj.mprj.dma0.dma_data_o[31:0]
+counter_la_fir_tb.uut.mprj.mprj.dma0.fir_out_count[7:0]
+@28
+counter_la_fir_tb.uut.mprj.mprj.dma0.dma_en
+counter_la_fir_tb.uut.mprj.mprj.dma0.dma_we
+counter_la_fir_tb.uut.mprj.mprj.dma0.dma_irq
+counter_la_fir_tb.uut.mprj.mprj.dma0.dma_read_ack
+@200
+-
+-#axis
+@28
+counter_la_fir_tb.uut.mprj.mprj.dma_mem0.clk
+counter_la_fir_tb.uut.mprj.mprj.dma0.cs[2:0]
+@420
+counter_la_fir_tb.uut.mprj.mprj.dma0.ss_tdata[31:0]
+@28
+counter_la_fir_tb.uut.mprj.mprj.dma0.ss_tvalid
+counter_la_fir_tb.uut.mprj.mprj.dma0.ss_tready
+counter_la_fir_tb.uut.mprj.mprj.dma0.ss_tlast
+@200
+-
+@420
+counter_la_fir_tb.uut.mprj.mprj.dma0.sm_tdata[31:0]
+@28
+counter_la_fir_tb.uut.mprj.mprj.dma0.sm_tvalid
+counter_la_fir_tb.uut.mprj.mprj.dma0.sm_tready
+counter_la_fir_tb.uut.mprj.mprj.dma0.sm_tlast
+@200
+-
+-#dma_mem
+@22
+counter_la_fir_tb.uut.mprj.mprj.dma_mem0.dma_addr[31:0]
+@420
+counter_la_fir_tb.uut.mprj.mprj.dma_mem0.dma_data_o[31:0]
+@22
+counter_la_fir_tb.uut.mprj.mprj.dma_mem0.dma_data_i[31:0]
+@28
+counter_la_fir_tb.uut.mprj.mprj.dma_mem0.dma_we
+counter_la_fir_tb.uut.mprj.mprj.dma_mem0.dma_en
+counter_la_fir_tb.uut.mprj.mprj.dma_mem0.dma_read_ack
+@200
+-
+-
+-
+@28
+counter_la_fir_tb.uut.mprj.mprj.user_wb2axi.user_fir.ap_start
+counter_la_fir_tb.uut.mprj.mprj.user_wb2axi.user_fir.ap_idle
+counter_la_fir_tb.uut.mprj.mprj.user_wb2axi.user_fir.ap_done
+counter_la_fir_tb.uut.mprj.mprj.user_wb2axi.user_fir.x_ready_reg
+counter_la_fir_tb.uut.mprj.mprj.user_wb2axi.user_fir.y_valid_reg
+[pattern_trace] 1
+[pattern_trace] 0
